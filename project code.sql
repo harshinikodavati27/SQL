@@ -127,6 +127,3 @@ select 	*,
 from cte)
 select * from cte1
 where rank_order<=3;
-
-select distinct product from dim_product;
-select distinct category from dim_product;
